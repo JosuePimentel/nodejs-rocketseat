@@ -1,0 +1,26 @@
+{
+  "name": "cap-03",
+  "version": "1.0.0",
+  "description": "GymPass style app.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx --watch src/server.ts",
+    "start": "node dist/server.cjs",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.5.0",
+    "fastify": "5.3.2",
+    "tsup": "8.4.0",
+    "tsx": "4.19.4",
+    "zod": "3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.17",
+    "typescript": "5.8.3"
+  }
+}
